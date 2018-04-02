@@ -255,3 +255,18 @@ Para realizar esto, se debe tener la máquina virtual apagada y obviamente tenem
 3-	Damos clic en **Importar**, esperamos a que se importe y listo.
 
 ## **Cuadro comparativo entre Debian 9 y Centos 7**
+
+A continuación se presenta un cuadro comparativo entre Debian 9 y CentOS 7
+
+Debian 9 | CentOS7
+--- | ---
+1 | 1
+2 | 2
+3 | 3
+4 | 4
+5 | 5
+6 | 6
+7 | 7
+8 | 8
+9 | 9
+10 | 10
