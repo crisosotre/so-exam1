@@ -92,6 +92,12 @@ En VirtualBox iniciamos nuestra máquina virtual y procedemos a realizar la inst
 
 ### **Capturas de pantalla para la instalación de Debian 9**
 
+![](img/instalar1.png)
+
+![](img/instalar2.png)
+
+![](img/instalar3.png)
+
 ## **Comandos utilizados para mostrar información del sistema operativo**
 
 1)	Abrimos el terminal, ejecutamos el comando **su – root** para ingresar como usuario root.
@@ -143,6 +149,26 @@ En el siguiente enlace se encuentra el archivo de texto con los comandos utiliza
 ***Existen más comandos para ver la información del sistema, he mostrado cuales son importantes y cuales son interesantes de explorar***.
 
 ### **Capturas de pantalla de los comandos utilizados**
+
+![](img/sisinfosistema9.png)
+
+![](img/infosistema1.png)
+
+![](img/infosistema2.png)
+
+![](img/infosistema3.png)
+
+![](img/infosistema4.png)
+
+![](img/infosistema5.png)
+
+![](img/infosistema6.png)
+
+![](img/infosistema7.png)
+
+![](img/infosistema8.png)
+
+![](img/infosistema9.png)
 
 ## **Configuración interfaz tipo puente** 
 
