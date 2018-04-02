@@ -2,6 +2,7 @@
 
 **Nombre:** Cristian Osorio Trejos  
 **Código:** A00056436  
+**URL: ** [https://github.com/crisosotre/so-exam1/blob/crisosotre/so-exam1/A00056436/README.md](https://github.com/crisosotre/so-exam1/blob/crisosotre/so-exam1/A00056436/README.md)
 
 ## Descripción:
 
