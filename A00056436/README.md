@@ -110,18 +110,19 @@ En VirtualBox iniciamos nuestra máquina virtual y procedemos a realizar la inst
 
 22)	El comando **ip a** nos brinda información sobre la dirección ip de la máquina, el broadcast, la dirección de red y la MAC.
 
+En el siguiente enlace se encuentra el archivo de texto con los comandos utilizados para obtener la información del sistema:[https://github.com/crisosotre/so-exam1/blob/crisosotre/so-exam1/A00056436/comandos_infosistema.txt](https://github.com/crisosotre/so-exam1/blob/crisosotre/so-exam1/A00056436/comandos_infosistema.txt).
+
 ***Existen más comandos para ver la información del sistema, he mostrado cuales son importantes y cuales son interesantes de explorar***.
 
 ### **Capturas de pantalla de los comandos utilizados**
 
-## **Configuración interfaz tipo puente 
+## **Configuración interfaz tipo puente** 
 
 La configuración de red con un adaptador tipo puente ya se ha hecho previamente y esta documenta en la parte superior de este documento en la sección de **Configuración de la máquina virtual**. Ahí se explica paso a paso lo que se necesita para configurar una interfaz tipo puente.
 
-## ** Haciendo uso de Putty para acceder a la máquina virtual**
+## **Haciendo uso de Putty para acceder a la máquina virtual**
 
-Primero es necesario descargar putty del siguiente enlace: [](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). se debe seleccionar el putty.exe de 32 bits o de 64 bits dependiendo de tu máquina, en la sección **(the SSH and Telnet client itself)**.
-Una vez descargado Putty y configurado la interfaz tipo puente procedemos a abrir Putty y a configurar lo siguiente.
+Primero es necesario descargar putty del siguiente enlace: [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Se debe seleccionar el **putty.exe** de 32 bits o de 64 bits dependiendo de tu máquina, en la sección **(the SSH and Telnet client itself)**. Una vez descargado Putty y configurado la interfaz tipo puente procedemos a abrir Putty y a configurar lo siguiente.
 
 1)	El Host Name, que es la dirección IP de la máquina virtual. La dirección IP de la máquina virtual se puede ver con el comando **ip a** y es aquella que se muestra por la interfaz enp0s8.
 
