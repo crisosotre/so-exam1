@@ -174,6 +174,8 @@ En el siguiente enlace se encuentra el archivo de texto con los comandos utiliza
 
 La configuración de red con un adaptador tipo puente ya se ha hecho previamente y esta documenta en la parte superior de este documento en la sección de **Configuración de la máquina virtual**. Ahí se explica paso a paso lo que se necesita para configurar una interfaz tipo puente.
 
+![](img/interfaztipopuente.png)
+
 ## **Haciendo uso de Putty para acceder a la máquina virtual**
 
 Primero es necesario descargar putty del siguiente enlace: [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Se debe seleccionar el **putty.exe** de 32 bits o de 64 bits dependiendo de tu máquina, en la sección **(the SSH and Telnet client itself)**. Una vez descargado Putty y haber configurado la interfaz tipo puente, procedemos a abrir Putty para configurar lo siguiente:
@@ -188,23 +190,37 @@ Listo ya hemos accedido a la máquina virtual desde putty. ***Hay que tener en c
 
 ### **Capturas de pantalla de la configuración de Putty**
 
+![](img/infosistema9.png)
+
+![](img/configurarputty.png)
+
+![](img/inicioputty.png)
+
 ## **Instalando git y tig**
 
 1)	Iniciamos como **root**.
 
+![](img/iniciaroot.png)
+
 2)	Instalamos git con el comando **$ apt-get install git -y**
+
+![](img/instalagitputty.png)
 
 3)	Instalamos tig con el comando **$ apt-get install tig -y**
 
+![](img/instalatigputty.png)
+
 4)	Ahora usaremos git para clonar el repositorio dando el comando **git clone** y la url del repositorio. 
 
-5)	Usaremos tig para ver el historial de commits hechos en el repositorio.
+![](img/clonarrepositorio.png)
 
-6)	Cambiamos con cd de directorio a so-exam1 utilizando el comando **cd so-exam1**
+5)	Cambiamos con cd de directorio a so-exam1 utilizando el comando **cd so-exam1**
 
-7)	Verificamos que estamos en la rama master con **git branch -a** y cambiamos a nuestra rama con **git checkout crisosotre/so-exam1**.
+6)	Verificamos que estamos en la rama master con **git branch -a** y cambiamos a nuestra rama con **git checkout crisosotre/so-exam1**.
 
-8)	Luego ejecutamos el comando **tig** para ver el historial de commits que se han hecho al repositorio.
+![](img/cambiarrama.png)
+
+7)	Luego ejecutamos el comando **tig** para ver el historial de commits que se han hecho al repositorio.
 
 ## **Exportar la máquina virtual**
 
@@ -217,6 +233,12 @@ Para realizar esto, se debe tener la máquina virtual apagada y obviamente tenem
 3-	Elegimos donde queremos guardar nuestra máquina virtual y damos clic en **Next**.
 
 4-	Damos clic en **Exportar** y esperamos a que termine de exportar y listo.
+
+![](img/exportar.png)
+
+![](img/exportar2.png)
+
+![](img/exportar3.png)
 
 ## **Importar la máquina virtual**
 
