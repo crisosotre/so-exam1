@@ -178,7 +178,11 @@ La configuración de red con un adaptador tipo puente ya se ha hecho previamente
 
 ## **Haciendo uso de Putty para acceder a la máquina virtual**
 
-Primero es necesario descargar putty del siguiente enlace: [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Se debe seleccionar el **putty.exe** de 32 bits o de 64 bits dependiendo de tu máquina, en la sección **(the SSH and Telnet client itself)**. Una vez descargado Putty y haber configurado la interfaz tipo puente, procedemos a abrir Putty para configurar lo siguiente:
+Primero es necesario descargar putty del siguiente enlace: [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Se debe seleccionar el **putty.exe** de 32 bits o de 64 bits dependiendo de tu máquina, en la sección **(the SSH and Telnet client itself)**. 
+
+![](img/putty.png)
+
+Una vez descargado Putty y haber configurado la interfaz tipo puente, procedemos a abrir Putty para configurar lo siguiente:
 
 1)	El **Host Name**, que es la dirección IP de la máquina virtual. La dirección IP de la máquina virtual se puede ver con el comando **ip a** y es aquella que se muestra por la interfaz **enp0s8**.
 
