@@ -1,0 +1,53 @@
+    1  apt-get update
+    2  apt-get upgrade
+    3  cd..
+    4  ls
+    5  cd so-exam1/
+    6  ls
+    7  cd A00056436/
+    8  ls
+    9  rm comandos_infosistema.txt 
+   10  ls
+   11  cd ..
+   12  cd ..
+   13  ls
+   14  touch comandos_infosistema.txt
+   15  ls
+   16  history > comandos_infosistema.txt 
+   17  vi comandos_infosistema.txt 
+   18  uname
+   19  uname -s
+   20  uname -n
+   21  uname -a
+   22  uname -m
+   23  uname -v
+   24  uname -r
+   25  uname -p
+   26  uname -o
+   27  arch
+   28  dmidecode
+   29  dmidecode -s
+   30  dmidecode -s system-manufacturer
+   31  dmidecode -s processor-manufacturer
+   32  dmidecode -s system-version
+   33  dmidecode -s system-serial-number
+   34  cat /proc/version
+   35  cat /proc/cpuinfo
+   36  date
+   37  cal
+   38  ls
+   39  git clone https://github.com/crisosotre/so-exam1.git
+   40  git branch
+   41  git branch -a
+   42  mv comandos_infosistema.txt so-exam1/
+   43  git branch -a
+   44  ls
+   45  cd so-exam1/
+   46  ls
+   47  mv comandos_infosistema.txt A00056436/
+   48  cd A00056436/
+   49  ls
+   50  cd ..
+   51  cd A00056436/
+   52  ls
+   53  history > comandos_infosistema.txt 
