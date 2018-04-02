@@ -260,13 +260,13 @@ A continuación se presenta un cuadro comparativo entre Debian 9 y CentOS 7
 
 Debian 9 | CentOS7
 --- | ---
-1 | 1
-2 | 2
-3 | 3
-4 | 4
-5 | 5
-6 | 6
-7 | 7
-8 | 8
-9 | 9
-10 | 10
+Distribución libre y estable (Debian). | Distribución clonada de Red Hat Enterprise Linux.
+Las actualizaciones de Debian son sencillas y menos complicadas, son mas estables. | Las actualizaciones son rapidas si son pequeñas, para actualizaciones grandes se pide hacer instalaciones desde cero. 
+apt-get es mas rapido, debian tiene mas paquetes y permite dependencias. | yum es lento y solo permite descargar paquetes pero no dependencias.
+Bo hay acceso directo al servidor, las actualizaciones se hacen a través de ssh. | Es estable con servidores y es lider en este campo.
+Tiene lanzamientos frecuentes. | Se hacen lanzamientos esporadicos, incluso tiene poco soporte.
+debian-9.4.0-amd64-netinst pesa 291 MB. | centOS 7 minimal de 64 bits pesa 792 MB.
+Es usado comunmente por expertos en Linux. | Se usa normalmente en las empresas.
+La arquitectura es x86_64 x86_32, ARM y PowerPc. | La arquitectura generalmente es x86_64.
+Linux Kernel 4.9 | Linux Kernel 3.10.0.
+Soporta GUI pero no tiene controladores privados. | Soporta GUI y tiene controladores privados.
