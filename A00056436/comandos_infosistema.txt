@@ -51,3 +51,14 @@
    51  cd A00056436/
    52  ls
    53  history > comandos_infosistema.txt 
+   54  vi comandos_infosistema.txt 
+   55  git add --all
+   56  git status
+   57  git commit -m "add comandos_infosistema"
+   58  git config --global user.email crisosotre@hotmail.com
+   59  git config --global user.name Cristian Osorio Trejos
+   60  git commit -m "add comandos_infosistema"
+   61  git push origin crisosotre/so-exam1
+   62  git pull
+   63  ls
+   64  history > comandos_infosistema.txt 
