@@ -64,6 +64,10 @@ Estamos en la sección de crear un disco duro, en este caso seleccionamos la opc
 
 Hasta este último punto ya tenemos la máquina virtual creada, pero necesitamos hacer la configuración de red y montar la imagen iso para el arranque. Para hacer esto, seleccionamos nuestra máquina virtual y presionamos el icono **configuración**, una vez en configuración seleccionamos **Red** y en la pestaña **Adaptador 1** habilitamos el adaptador de red y que esté conectado a **NAT**, luego vamos a la pestaña **Adaptador 2** y habilitamos el adaptador de red nuevamente y lo conectamos a **Adaptador Puente**. Ahora vamos a **Sistema** y solo seleccionamos **Disco duro** y **óptica** y nos aseguramos de que el Disco duro este de primero. Después seleccionamos **Almacenamiento** y en controlador IDE seleccionamos el icono que dice **Vacío** y en la parte derecha hacia el extremo seleccionamos el icono de un **disco** y después seleccionamos la opción **Seleccione archivo de disco óptico virtual …** y buscamos la imagen iso de debian 9 que descargamos anteriormente, la seleccionamos y presionamos el botón **Abrir** y por último, damos clic al botón **Aceptar**. Hemos finalizado la configuración de la máquina virtual.
 
+### **Captura de pantalla de la máquina virtual configurada**.
+
+![](img/virtualbox.png)
+
 ## **Instalación de la imagen iso de Debian 9**
 
 En VirtualBox iniciamos nuestra máquina virtual y procedemos a realizar la instalación de debian 9. Seguimos los pasos de instalación a continuación. 
