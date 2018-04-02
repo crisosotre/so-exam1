@@ -226,6 +226,8 @@ Listo ya hemos accedido a la máquina virtual desde putty. ***Hay que tener en c
 
 7)	Luego ejecutamos el comando **tig** para ver el historial de commits que se han hecho al repositorio.
 
+![](img/historialcommits.png)
+
 ## **Exportar la máquina virtual**
 
 Para realizar esto, se debe tener la máquina virtual apagada y obviamente tenemos que tener abierto nuestro VirtualBox.
