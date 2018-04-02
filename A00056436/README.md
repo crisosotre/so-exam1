@@ -22,6 +22,30 @@ Por último, para realizar la comparación debemos copiar la fila de números he
 
 ### **Capturas de pantalla para la validación de la imagen iso**
 
+#### Primero
+
+![validar](img/validar1.png)
+
+#### Segundo
+
+![](img/validar2.png)
+
+#### Tercero
+
+![](img/validar3.png)
+
+#### Cuarto
+
+![](img/validar4.png)
+
+#### Quinto
+
+![](img/validar5.png)
+
+#### Sexto
+
+![](img/validar6.png)
+
 ## **Configuración de la máquina virtual**
 
 Para la instalación necesitamos VirtualBox o WMWara, en mi caso utilizare VirtualBox. Abrimos VirtualBox para configurar una nueva máquina virtual y en ella instalar debian 9.
