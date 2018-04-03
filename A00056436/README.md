@@ -255,6 +255,14 @@ Para realizar esto, se debe tener la máquina virtual apagada y obviamente tenem
 
 3-	Damos clic en **Importar**, esperamos a que se importe y listo.
 
+![](img/importar1.png)
+
+![](img/importar2.png)
+
+![](img/importar3.png)
+
+![](img/importar4.png)
+
 ## **Cuadro comparativo entre Debian 9 y Centos 7**
 
 A continuación se presenta un cuadro comparativo entre Debian 9 y CentOS 7
